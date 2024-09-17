@@ -1,0 +1,62 @@
+﻿@{
+  ViewData["Title"] = "Lista de Contatos";
+}
+
+<div class = "text-center">
+
+<div class = "d-grid gap-2 d-md-flex justify-content-md-start"> 
+  <a class="btn btn-primary" role = "button" asp-controller="Contato" asp-action="Criar">Adicionar novo contato</a>
+  </div>
+<br>
+<h1 class="display-4"><strong>Listagem de Contatos</strong></h1>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Nome</th>
+      <th scope="col">E-mail</th>
+      <th scope="col">Contato</th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto@gmail.com</td>
+      <td>16 23243-4245</td>
+      <td>
+        <div class="btn-group" role="group" aria-label="Basic example">
+          <a role="button"class="btn btn-primary" asp-controller="Contato" asp-action="Editar">Editar</a>
+          <a role="button"class="btn btn-primary btn-danger" asp-controller="Contato" asp-action="ConfirmarRemover">Remover</a>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton@gmail.com</td>
+      <td>16 73864-4335</td>
+      <td>
+        <div class="btn-group" role="group">
+          <a role="button"class="btn btn-primary" asp-controller="Contato" asp-action="Editar">Editar</a>
+          <a role="button"class="btn btn-primary btn-danger" asp-controller="Contato" asp-action="ConfirmarRemover">Remover</a>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>larry@gmail.com</td>
+      <td>16 988672-3456</td>
+      <td>
+        <div class="btn-group" role="group" aria-label="Basic example">
+          <a role="button"class="btn btn-primary" asp-controller="Contato" asp-action="Editar">Editar</a>
+          <a role="button"class="btn btn-primary btn-danger" asp-controller="Contato" asp-action="ConfirmarRemover">Remover</a>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
