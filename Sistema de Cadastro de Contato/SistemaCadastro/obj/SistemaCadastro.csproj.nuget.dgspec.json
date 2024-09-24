@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MW Contabilidade\\Documents\\GitHub\\Sistema de Cadastro de Contato\\SistemaCadastro\\SistemaCadastro.csproj": {}
+    "C:\\Users\\MW Contabilidade\\Documents\\GitHub\\SistemaCadastroContatos\\Sistema de Cadastro de Contato\\SistemaCadastro\\SistemaCadastro.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MW Contabilidade\\Documents\\GitHub\\Sistema de Cadastro de Contato\\SistemaCadastro\\SistemaCadastro.csproj": {
+    "C:\\Users\\MW Contabilidade\\Documents\\GitHub\\SistemaCadastroContatos\\Sistema de Cadastro de Contato\\SistemaCadastro\\SistemaCadastro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MW Contabilidade\\Documents\\GitHub\\Sistema de Cadastro de Contato\\SistemaCadastro\\SistemaCadastro.csproj",
+        "projectUniqueName": "C:\\Users\\MW Contabilidade\\Documents\\GitHub\\SistemaCadastroContatos\\Sistema de Cadastro de Contato\\SistemaCadastro\\SistemaCadastro.csproj",
         "projectName": "SistemaCadastro",
-        "projectPath": "C:\\Users\\MW Contabilidade\\Documents\\GitHub\\Sistema de Cadastro de Contato\\SistemaCadastro\\SistemaCadastro.csproj",
+        "projectPath": "C:\\Users\\MW Contabilidade\\Documents\\GitHub\\SistemaCadastroContatos\\Sistema de Cadastro de Contato\\SistemaCadastro\\SistemaCadastro.csproj",
         "packagesPath": "C:\\Users\\MW Contabilidade\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MW Contabilidade\\Documents\\GitHub\\Sistema de Cadastro de Contato\\SistemaCadastro\\obj\\",
+        "outputPath": "C:\\Users\\MW Contabilidade\\Documents\\GitHub\\SistemaCadastroContatos\\Sistema de Cadastro de Contato\\SistemaCadastro\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MW Contabilidade\\AppData\\Roaming\\NuGet\\NuGet.Config",

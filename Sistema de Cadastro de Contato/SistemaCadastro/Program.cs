@@ -1,10 +1,11 @@
 using SistemaCadastro.Data;
+using SistemaCadastro.Repositorio;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddEntityFrameworkSqlServer().AddDbContext<BancoContext>();
+builder.Services.AddScoped<IContatoRepositorio, ContatoRepositorio>();//Toda vez que minha IContatoRepositorio dor chamada quero que ele usa todos atributos e metodos da ContatoRepositorio
 
 var app = builder.Build();
 

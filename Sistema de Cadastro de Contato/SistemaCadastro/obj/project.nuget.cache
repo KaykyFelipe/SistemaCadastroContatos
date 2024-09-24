@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2OY46gE4+7c=",
+  "dgSpecHash": "cIzGu6Lg6/8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\MW Contabilidade\\Documents\\GitHub\\Sistema de Cadastro de Contato\\SistemaCadastro\\SistemaCadastro.csproj",
+  "projectFilePath": "C:\\Users\\MW Contabilidade\\Documents\\GitHub\\SistemaCadastroContatos\\Sistema de Cadastro de Contato\\SistemaCadastro\\SistemaCadastro.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MW Contabilidade\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\MW Contabilidade\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

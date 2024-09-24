@@ -9,11 +9,8 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        var home = new HomeModel();
-
-        home.Nome = "Kayky Nascimento";
-        home.Email = "KAYKY159@GMAIL.COM";
-        return View(home);
+        
+            return View();
     }
 
     public IActionResult Privacy()
